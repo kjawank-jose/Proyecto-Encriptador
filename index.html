@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador - Desencriptador</title>
+</head>
+
+<body>
+    <header>
+        <div class="encabezado" id="inicio">
+            <img src="images/logo_alura.png" alt="logo-alura" class="logo">
+            <h1 class="title">Encriptador - Desencriptador</h1>
+            <img src="images/logo-JL.jpg" alt="logo-jl" class="logo">
+        </div>
+    </header>
+    <main class="box-principal">
+        <section class="box-right">
+            <div class="card num1">
+                <textarea name="text" id="mensaje" class="encrypted-box1" placeholder="Ingrese la frase o palabras a encriptar" autofocus></textarea>
+                <div class="box-errores"><p>&#128712; Ingrese solo letras minúsculas.</p></div>
+            </div>
+            <div class="box-botones">
+                <button id="encriptar">Encriptar</button>
+                <button id="desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="box-left">
+            <div class="card num2">
+                <textarea id="resultado" placeholder="Resultado..." class="encrypted-box2" ></textarea>
+            </div>
+            <div class="box-botones">
+                <button id="copiar">Copiar</button>
+                <button id="escuchar">Escuchar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="info-jlc">
+        <p>&copy; Jose Luis - Marzo 2024</p>
+        <p>
+            <a href="https://www.linkedin.com/in/jose-luis-cajahuanca/"><img src="images/logo_linkedin.png" alt="linkedin" class="rs-jlc"></a>
+            <a href="https://github.com/kjawank-jose"><img src="images/github-logo.png" alt="github" class="rs-jlc"></a>
+        </p>
+    </footer>
+
+    <script src="js/function.js"></script>
+</body>
+
+</html>
